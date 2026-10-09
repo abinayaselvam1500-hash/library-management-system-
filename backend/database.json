@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1790514407848,
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "password": "$2b$10$plH/LVwGA8GAj.gK4f/hf.7ifrkWhlNolrrxsAUJsOsIjO9giazg.",
+      "role": "student"
+    },
+    {
+      "id": 1790515763847,
+      "name": "test",
+      "email": "test123@gmail.com",
+      "password": "$2b$10$DrdrqhXHLMCrU9F5POXLHuKQj5/oalwjgYwU/b.E00bUaFatkmtke",
+      "role": "student"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Java Programming",
+      "author": "Herbert Schildt",
+      "category": "Programming",
+      "copies": 5
+    },
+    {
+      "id": 2,
+      "name": "Computer Networks",
+      "author": "Andrew S. Tanenbaum",
+      "category": "Networking",
+      "copies": 3
+    },
+    {
+      "id": 3,
+      "name": "Database Management System",
+      "author": "Raghu Ramakrishnan",
+      "category": "Database",
+      "copies": 4
+    },
+    {
+      "id": 4,
+      "name": "Web Technology",
+      "author": "Ullman",
+      "category": "Web Development",
+      "copies": 2
+    }
+  ],
+  "issues": [
+    {
+      "id": 1790587394573,
+      "studentName": "test",
+      "bookName": "Java Programming",
+      "issueDate": "2026-09-28T09:23:14.573Z",
+      "status": "Returned",
+      "returnDate": "2026-09-28T10:02:26.575Z"
+    },
+    {
+      "id": 1790694118460,
+      "studentName": "test",
+      "bookName": "Java Programming",
+      "issueDate": "2026-09-29T15:01:58.460Z",
+      "status": "Returned",
+      "returnDate": "2026-09-29T15:03:36.218Z"
+    },
+    {
+      "id": 1790758624919,
+      "studentName": "test",
+      "bookName": "Java Programming",
+      "issueDate": "2026-09-30T08:57:04.919Z",
+      "status": "Returned",
+      "returnDate": "2026-09-30T08:58:50.434Z"
+    }
+  ]
+}

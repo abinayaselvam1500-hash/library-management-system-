@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue Book - Library Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Library Management System</h1>
+
+    <h2>Issue Book</h2>
+
+    <button onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+    </button>
+
+    <br><br>
+
+    <form id="issueForm">
+
+        <label>Student Name:</label>
+        <input type="text" id="studentName" required>
+
+        <br><br>
+
+        <label>Book Name:</label>
+        <select id="bookName" required>
+            <option value="">Select Book</option>
+            <option value="Java Programming">Java Programming</option>
+            <option value="Computer Networks">Computer Networks</option>
+            <option value="Database Management System">
+                Database Management System
+            </option>
+            <option value="Web Technology">Web Technology</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Issue Book</button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <script src="js/issue.js"></script>
+
+</body>
+</html>
