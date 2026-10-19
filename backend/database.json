@@ -13,6 +13,20 @@
       "email": "test123@gmail.com",
       "password": "$2b$10$DrdrqhXHLMCrU9F5POXLHuKQj5/oalwjgYwU/b.E00bUaFatkmtke",
       "role": "student"
+    },
+    {
+      "id": 1792141523277,
+      "name": "abinaya",
+      "email": "abinayaselvam1500@gmail.com",
+      "password": "$2b$10$yk5mSo9nKOkMwwJLfViOyO.480NwvJ247KUw9zN2YsMMfkxDbAFGO",
+      "role": "student"
+    },
+    {
+      "id": 1792141548786,
+      "name": "abinaya",
+      "email": "abi123@mail.com",
+      "password": "$2b$10$ZlYJZYaSFhgi7MiTZqKSlOgb977KojvAxgglVXPQuBHliGj14uvWe",
+      "role": "student"
     }
   ],
   "books": [
@@ -69,6 +83,14 @@
       "issueDate": "2026-09-30T08:57:04.919Z",
       "status": "Returned",
       "returnDate": "2026-09-30T08:58:50.434Z"
+    },
+    {
+      "id": 1792127280652,
+      "studentName": "test",
+      "bookName": "Web Technology",
+      "issueDate": "2026-10-16T05:08:00.652Z",
+      "status": "Returned",
+      "returnDate": "2026-10-16T05:08:44.318Z"
     }
   ]
 }
